@@ -17,6 +17,8 @@
             <v-btn
               text
               fab
+              outlined
+              elevation="3"
               class="botonAgregar"
               @click="addToCart(product._id)"
             >
@@ -42,8 +44,8 @@
           </v-img>
           <v-card-text class="text--primary" id="Texto">
             <div>{{ product.title }}</div>
-            <div>Talla:{{ product.size }}</div>
-            <div>${{ product.price }}</div>
+            <div>Talla: {{ product.size }}</div>
+            <div>$ {{ product.price }}</div>
           </v-card-text>
         </v-card>
       </v-col>

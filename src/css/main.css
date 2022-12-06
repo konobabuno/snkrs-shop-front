@@ -10,6 +10,7 @@
 
 .imagenAspecto {
   border-radius: 2.5vw !important;
+  border: 1.5px solid #555;
 }
 
 .imagenAspecto2 {
@@ -35,8 +36,9 @@
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  top: 82%;
+  top: 80%;
 }
+
 
 .botonInfo {
   position: absolute;

@@ -1,21 +1,21 @@
-export const BASE_URL = "https://bazar-online-back.herokuapp.com/api/";
+export const BASE_URL = "http://localhost:3000/api/";
 export const ENDPOINTS = {
   PRODUCTS: {
-    BASE: "productos/",
-    ALL: "productos/todos/",
-    DEACTIVATE: "productos/des/",
-    ACTIVATE: "productos/act/",
-    IMAGE: "productos/src/",
-    TITLE: "productos/ttl/",
-    SIZE: "productos/sz/",
-    PRICE: "productos/prc/",
+    BASE: "producto/",
+    ALL: "producto/todos/",
+    DEACTIVATE: "producto/des/",
+    ACTIVATE: "producto/act/",
+    IMAGE: "producto/src/",
+    TITLE: "producto/ttl/",
+    SIZE: "producto/sz/",
+    PRICE: "producto/prc/",
   },
   PLACES: {
-    BASE: "lugares/",
+    BASE: "lugar/",
   },
   ORDERS: {
-    BASE: "ordenes/",
-    ACTIVES: "ordenes/act/",
+    BASE: "orden/",
+    ACTIVES: "orden/act/",
   },
   CLIENTS: {
     BASE: "clientes/", // Enviar email y telefono en body

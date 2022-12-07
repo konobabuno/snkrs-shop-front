@@ -108,9 +108,8 @@ export default new Vuex.Store({
     async getProducts({ commit }) {
       const url = BASE_URL + ENDPOINTS.PRODUCTS.BASE;
       try {
-        const products = (await axios.get(url)).data.docs;
+        const products = (await axios.get(url)).data;
         commit("setProducts", products);
-        //console.log(products)
       } catch (error) {
         console.log(error);
       }
@@ -118,7 +117,7 @@ export default new Vuex.Store({
     async getPlaces({ commit }) {
       const url = BASE_URL + ENDPOINTS.PLACES.BASE;
       try {
-        const places = (await axios.get(url)).data.docs;
+        const places = (await axios.get(url)).data;
         commit("setPlaces", places);
       } catch (error) {
         console.log(error);

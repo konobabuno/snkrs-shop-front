@@ -1,21 +1,21 @@
 export const BASE_URL = "http://localhost:3000/api/";
 export const ENDPOINTS = {
   PRODUCTS: {
-    BASE: "producto/",
-    ALL: "producto/todos/",
-    DEACTIVATE: "producto/des/",
-    ACTIVATE: "producto/act/",
-    IMAGE: "producto/src/",
-    TITLE: "producto/ttl/",
-    SIZE: "producto/sz/",
-    PRICE: "producto/prc/",
+    BASE: "productos/todos/",
+    ALL: "productos/todos/",
+    DEACTIVATE: "productos/des/",
+    ACTIVATE: "productos/act/",
+    IMAGE: "productos/src/",
+    TITLE: "productos/ttl/",
+    SIZE: "productos/sz/",
+    PRICE: "productos/prc/",
   },
   PLACES: {
-    BASE: "lugar/",
+    BASE: "lugares/",
   },
   ORDERS: {
-    BASE: "orden/",
-    ACTIVES: "orden/act/",
+    BASE: "ordenes/",
+    ACTIVES: "ordenes/act/",
   },
   CLIENTS: {
     BASE: "clientes/", // Enviar email y telefono en body
